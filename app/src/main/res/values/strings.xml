@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Cute Kittens</string>
+    <string name="welcome">Welcome to cute kittens\' world!!</string>
+    <string name="error_view_text">Couldn\'t load image</string>
+    <string name="menu_button">Open menu button</string>
+    <string name="content_description_menu_refresh">menu button for refreshing</string>
+    <string name="content_description_menu_lock_screen">menu button for setting lock screen wallpaper</string>
+    <string name="content_description_menu_wallpaper">menu button for setting wallpaper</string>
+    <string name="content_description_menu_slide_show">menu button for opening slide show</string>
+    <string name="content_description_menu_share">menu button for sharing image</string>
+    <string name="content_description_menu_save">menu button for saving image</string>
+
+
+    <string name="banner_ad_id1">ca-app-pub-1155104911325440/2050821378</string>
+    <string name="banner_ad_id2">ca-app-pub-1155104911325440/7288644108</string>
+    <string name="interstitial_ad_id1">ca-app-pub-1155104911325440/1731612395</string>
+    <string name="interstitial_ad_id2">ca-app-pub-1155104911325440/4874287650</string>
+
+
+<!--    <string name="banner_ad_id1">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="banner_ad_id2">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="interstitial_ad_id1">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="interstitial_ad_id2">ca-app-pub-3940256099942544/1033173712</string>-->
+
+
+
+
+</resources>

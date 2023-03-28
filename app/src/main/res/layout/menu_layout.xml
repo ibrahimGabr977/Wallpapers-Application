@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<io.codetail.widget.RevealFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/transparent">
+
+        <!-- Transform view -->
+    <LinearLayout
+        android:id="@+id/menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fab_color"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+            <!-- Put view you like -->
+
+            <ImageView
+                android:id="@+id/menu_save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_item_download"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:contentDescription="@string/content_description_menu_save"
+                />
+
+            <ImageView
+                android:id="@+id/menu_share"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_item_share"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:contentDescription="@string/content_description_menu_share"/>
+
+            <ImageView
+                android:id="@+id/menu_slide_show"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_item_slideshow"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:contentDescription="@string/content_description_menu_slide_show"/>
+
+
+
+            <ImageView
+                android:id="@+id/menu_set_wallpaper"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_item_set_wallpaper"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:contentDescription="@string/content_description_menu_wallpaper"/>
+
+            <ImageView
+                android:id="@+id/menu_set_lock_screen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_item_lockscreen"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:contentDescription="@string/content_description_menu_lock_screen"/>
+
+            <ImageView
+                android:id="@+id/menu_refresh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_item_refresh"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:contentDescription="@string/content_description_menu_refresh" />
+        </LinearLayout>
+
+</io.codetail.widget.RevealFrameLayout>
